@@ -2,7 +2,7 @@
 
 A lightweight, Python-based remote desktop and control utility. This project allows you to view and control a remote Windows machine over a local network or the internet.
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The system consists of two main components:
 
@@ -29,14 +29,14 @@ sequenceDiagram
     end
 ```
 
-## 🚀 Features
+##  Features
 
 - **Zero-Config Discovery**: Automatically finds controlled machines on the local network using UDP broadcasting.
 - **Background Operation**: The controlled side runs with no window or taskbar icon.
 - **Input Sync**: Supports mouse movement, clicking, and keyboard inputs (including Enter, Backspace, and Tab).
 - **Optimized Streaming**: Uses JPEG compression and packet sizing for smooth performance.
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Prerequisites
 
@@ -77,7 +77,7 @@ python controller.py
 
 ---
 
-## 🔍 Deep Dive: How the Code Works
+##  Deep Dive: How the Code Works
 
 ### 1. The "Packet" Logic (`receive_all`)
 
